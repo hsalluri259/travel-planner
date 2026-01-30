@@ -1,1 +1,5 @@
 # travel-planner
+we’ll build an AI-powered travel planner centered on the concept of Agent2Agent (A2A) collaboration. We design specialized agents for attractions, hotels, flights, and weather, and connect them through a root agent coordinating their communication. Instead of relying on a single model for everything, each agent focuses on a specific task and can call on other agents when needed. This demonstrates how multiple AI agents can collaborate to create a more reliable and organized system.
+
+We will implement the agents using Python, Google’s Gemini model, and the Agent Development Kit (ADK). Some will be powered by external APIs, such as OpenWeatherMap, and others will use mock datasets. The project gradually guides us from creating individual agents to integrating them into a root agent, finally connecting the system to a command-line interface. By the end, we can expect a functional AI travel assistant that showcases the power of A2A collaboration in solving complex, real-world problems.
+
