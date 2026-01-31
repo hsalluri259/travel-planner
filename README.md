@@ -3,3 +3,9 @@ we’ll build an AI-powered travel planner centered on the concept of Agent2Agen
 
 We will implement the agents using Python, Google’s Gemini model, and the Agent Development Kit (ADK). Some will be powered by external APIs, such as OpenWeatherMap, and others will use mock datasets. The project gradually guides us from creating individual agents to integrating them into a root agent, finally connecting the system to a command-line interface. By the end, we can expect a functional AI travel assistant that showcases the power of A2A collaboration in solving complex, real-world problems.
 
+# Create Virtual environment
+```bash
+python3 -m venv travel_planner_venv
+source travel_planner_venv/bin/activate
+```
+
